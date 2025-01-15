@@ -331,6 +331,15 @@ func companiesPart8() []domain.CompanyProfile {
 							WithSalary:           false,
 							Remote:               false,
 						},
+						{
+							Title:                "Backend — Golang Developer",
+							ShortDescription:     "2-3 years as a Golang Developer",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4120414743/",
+							Date:                 mustDate("2025-01-14"),
+							WithSalary:           false,
+							Remote:               false,
+						},
 					},
 				},
 				domain.Rust:    {},
@@ -452,6 +461,326 @@ func companiesPart8() []domain.CompanyProfile {
 			},
 			ShortDescription: "Sweden software-driven tech company",
 			Ignore:           true, // The deleted outsource company was added by mistake
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Mondu",
+			Website: "https://www.mondu.ai/",
+			Careers: "https://www.mondu.ai/careers/",
+			About:   "https://www.mondu.ai/about/",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                76198623,
+				Alias:             "mondu-ai",
+				Name:              "Mondu",
+				Followers:         "12K",
+				Employees:         "51-200",
+				AssociatedMembers: "111",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "mondu-ai",
+				Verified: true,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Senior GoLang Engineer",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4121324436/",
+							Date:                 mustDate("2025-01-13"),
+							WithSalary:           false,
+							Remote:               true, // office in the centre of Berlin 2-3 days a week
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "European Fintech offering innovative payment solutions for B2B commerce",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "株式会社マネーフォワード — Money Forward",
+			Website: "https://corp.moneyforward.com/en/",
+			Careers: "https://recruit.moneyforward.com/en/",
+			About:   "https://corp.moneyforward.com/en/aboutus/",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                5775746,
+				Alias:             "money-forward",
+				Name:              "株式会社マネーフォワード — Money Forward",
+				Followers:         "9K",
+				Employees:         "1K-5K",
+				AssociatedMembers: "893",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "moneyforward",
+				Verified: true,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Senior Backend Engineer (Go)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4126118648/",
+							Date:                 mustDate("2025-01-15"),
+							WithSalary:           true, // 659,000 JPY — 〜834,000 JPY / month
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "FinTech company",
+			Industries: []domain.Industry{
+				domain.IndustryFinTech,
+			},
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "PrizePicks",
+			Website: "https://prizepicks.com/",
+			Careers: "https://www.prizepicks.com/careers",
+			About:   "",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                11477578,
+				Alias:             "prize-picks",
+				Name:              "PrizePicks",
+				Followers:         "21K",
+				Employees:         "501-1K",
+				AssociatedMembers: "543",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Software Engineer III (Go)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4124190818/",
+							Date:                 mustDate("2025-01-15"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "A daily fantasy sports operator",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "CHEP",
+			Website: "https://www.chep.com/",
+			Careers: "https://www.chep.com/careers/your-career-chep",
+			About:   "https://www.chep.com/about-us/about-us",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                5085,
+				Alias:             "chep",
+				Name:              "CHEP",
+				Followers:         "398K",
+				Employees:         "10K+",
+				AssociatedMembers: "8,831",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Full Stack Developer (Golang and Svelte)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4123557217/",
+							Date:                 mustDate("2025-01-15"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "Company that specializes in pooling and managing pallets, crates, and containers for efficient and sustainable supply chain operations",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Optimizely",
+			Website: "https://www.optimizely.com/",
+			Careers: "https://careers.optimizely.com/",
+			About:   "https://www.optimizely.com/company/",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                1189697,
+				Alias:             "optimizely",
+				Name:              "Optimizely",
+				Followers:         "140K",
+				Employees:         "1K-5K",
+				AssociatedMembers: "1,528",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "optimizely",
+				Verified: false,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Senior Software Engineer (Golang)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4120974608/",
+							Date:                 mustDate("2025-01-15"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "American Digital Experience Platform",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "OPSWAT",
+			Website: "https://www.opswat.com/",
+			Careers: "https://www.opswat.com/careers",
+			About:   "https://www.opswat.com/company/about",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                105936,
+				Alias:             "opswat",
+				Name:              "OPSWAT",
+				Followers:         "106K",
+				Employees:         "501-1K",
+				AssociatedMembers: "952",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "OPSWAT",
+				Verified: false,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Software Engineer (Golang)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4124852341/",
+							Date:                 mustDate("2025-01-15"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "American cybersecurity company",
+			Industries: []domain.Industry{
+				domain.IndustryCyberSecurity,
+			},
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "VideoAmp",
+			Website: "https://videoamp.com/",
+			Careers: "https://videoamp.com/jobs/",
+			About:   "https://videoamp.com/our-company/",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                3704165,
+				Alias:             "videoamp",
+				Name:              "VideoAmp",
+				Followers:         "19K",
+				Employees:         "201-500",
+				AssociatedMembers: "611",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Senior Full Stack Engineer — HTMX / Golang",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4122141025/",
+							Date:                 mustDate("2025-01-14"),
+							WithSalary:           true, // This position has a minimum salary of $150,000- $170,000
+							Remote:               false,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "Media measurement company revolutionizing advertising",
 		},
 
 		// Template short

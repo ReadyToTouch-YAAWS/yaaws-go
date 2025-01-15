@@ -366,6 +366,15 @@ func companiesPart4() []domain.CompanyProfile {
 							URL:              "https://www.linkedin.com/jobs/view/4096373782/",
 							Date:             mustDate("2024-12-11"),
 						},
+						{
+							Title:                "Golang Developer / Backend Developer (Golang)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4123639315/",
+							Date:                 mustDate("2025-01-14"),
+							WithSalary:           false,
+							Remote:               true, // Hybrid working model with 2 days office and 3 days remote
+						},
 					},
 				},
 				domain.Rust:    {},
@@ -607,7 +616,9 @@ func companiesPart4() []domain.CompanyProfile {
 							Title:            "Senior Golang Developer",
 							ShortDescription: "",
 							URL:              "https://www.linkedin.com/jobs/view/4049853199/",
-							Date:             mustDate("2024-12-03"),
+							Date:             mustDate("2024-12-03"), // mustDate("2024-12-03")
+							WithSalary:       false,
+							Remote:           false,
 						},
 					},
 				},
@@ -1001,7 +1012,9 @@ func companiesPart4() []domain.CompanyProfile {
 							Title:            "Senior Software Engineer",
 							ShortDescription: "Mobile/Backend (Android, Go, Kotlin)",
 							URL:              "https://www.linkedin.com/jobs/view/4093511115/",
-							Date:             mustDate("2024-12-11"),
+							Date:             mustDate("2025-01-14"), // mustDate("2024-12-11"),
+							WithSalary:       true,                   // $92,300.00 - $175,400.00
+							Remote:           true,                   // On-site
 						},
 					},
 				},
@@ -1175,6 +1188,15 @@ func companiesPart4() []domain.CompanyProfile {
 							ShortDescription: "Cloud Security Applications (.NET Core or GO)",
 							URL:              "https://www.linkedin.com/jobs/view/4084785751/",
 							Date:             mustDate("2024-12-03"),
+						},
+						{
+							Title:                "Software Engineer — Cloud Security Applications (.NET Core or Go)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4122199318/",
+							Date:                 mustDate("2025-01-14"),
+							WithSalary:           true, // from 2 600 EUR
+							Remote:               true, // Hybrid
 						},
 					},
 				},
@@ -1362,6 +1384,15 @@ func companiesPart4() []domain.CompanyProfile {
 							WithSalary:           false,
 							Remote:               true,
 						},
+						{
+							Title:                "Senior Backend Software Developer (Golang)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4124814543/",
+							Date:                 mustDate("2025-01-15"),
+							WithSalary:           false,
+							Remote:               true,
+						},
 					},
 				},
 				domain.Rust:    {},
@@ -1498,7 +1529,7 @@ func companiesPart4() []domain.CompanyProfile {
 							Title:            "Golang Backend Developer",
 							ShortDescription: "",
 							URL:              "https://www.linkedin.com/jobs/view/4069628874/",
-							Date:             mustDate("2024-12-03"),
+							Date:             mustDate("2025-01-15"), // mustDate("2024-12-03"),
 						},
 					},
 				},
