@@ -1902,6 +1902,15 @@ func companiesPart8() []domain.CompanyProfile {
 							WithSalary:           false,
 							Remote:               false, // Hybrid or Remote
 						},
+						{
+							Title:                "Backend Developer (Golang)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4161969462/",
+							Date:                 mustDate("2025-02-24"),
+							WithSalary:           false,
+							Remote:               true,
+						},
 					},
 				},
 				domain.Rust:    {},
@@ -6038,6 +6047,188 @@ func companiesPart8() []domain.CompanyProfile {
 				domain.Czechia,
 			},
 			RustFoundationMember: true,
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Garena",
+			Website: "https://www.garena.sg/",
+			Careers: "https://careers.garena.com/global/careers",
+			About:   "https://careers.garena.com/global/about",
+			Blog:    "",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                13678254,
+				IDs:               nil,
+				Alias:             "garena",
+				Name:              "Garena",
+				Followers:         "304K",
+				Employees:         "1K-5K",
+				AssociatedMembers: "5,066",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias: "",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Full Stack Developer (Golang, ReactJS)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4163890859/",
+							Date:                 mustDate("2025-02-24"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "Singapur online games developer and publisher",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "MoneyLion",
+			Website: "https://www.moneylion.com/",
+			Careers: "https://www.moneylion.com/careers/",
+			About:   "https://www.moneylion.com/about/",
+			Blog:    "",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                3489789,
+				IDs:               nil,
+				Alias:             "moneylion",
+				Name:              "MoneyLion",
+				Followers:         "33K",
+				Employees:         "501-1K",
+				AssociatedMembers: "588",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "MoneyLion",
+				Verified: true,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias:     "moneylion",
+				Employees: "450",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go:   {},
+				domain.Rust: {},
+				domain.Zig:  {},
+				domain.Scala: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Staff Backend Engineer (Scala)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4160597734/",
+							Date:                 mustDate("2025-02-21"),
+							WithSalary:           false,
+							Remote:               true,
+						},
+					},
+				},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "American fintech platform that specializes in providing fast short-term loans to people with limited credit",
+			Industries: []domain.Industry{
+				domain.IndustryFinTech,
+			},
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Loblaw Companies Limited",
+			Website: "https://www.loblaw.ca/",
+			Careers: "https://careers.loblaw.ca/",
+			About:   "https://www.loblaw.ca/en/who-we-are/",
+			Blog:    "",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                164756,
+				IDs:               []int{164756, 9450129, 79658411},
+				Alias:             "loblaw-companies-limited",
+				Name:              "Loblaw Companies Limited",
+				Followers:         "243K",
+				Employees:         "10K+",
+				AssociatedMembers: "23,193",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias:     "loblaw-companies",
+				Employees: "200,000",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go:   {},
+				domain.Rust: {},
+				domain.Zig:  {},
+				domain.Scala: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Senior Developer (Elixir)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4139223224/",
+							Date:                 mustDate("2025-02-21"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "Canadian retailer and distributor of food and pharmaceutical products",
 		},
 
 		// Template

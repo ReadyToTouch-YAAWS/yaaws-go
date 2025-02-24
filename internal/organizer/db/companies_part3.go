@@ -150,8 +150,21 @@ func companiesPart3() []domain.CompanyProfile {
 						},
 					},
 				},
-				domain.Rust: {},
-				domain.Zig:  {},
+				domain.Rust: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Principal Software Engineer, Rust",
+							ShortDescription:     "Capital One Software",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4141348448/",
+							Date:                 mustDate("2025-02-24"),
+							WithSalary:           true, // $144,200 - $164,600 a year
+							Remote:               false,
+						},
+					},
+				},
+				domain.Zig: {},
 				domain.Scala: {
 					GitHubRepositoriesCount: 0,
 					Vacancies: []domain.Vacancy{
@@ -3511,7 +3524,7 @@ func companiesPart3() []domain.CompanyProfile {
 							ShortDescription:     "Energy Transition",
 							SwitchingOpportunity: "",
 							URL:                  "https://www.linkedin.com/jobs/view/4160123502/",
-							Date:                 mustDate("2025-02-20"),
+							Date:                 mustDate("2025-02-23"), // mustDate("2025-02-20"),
 							WithSalary:           false,
 							Remote:               true,
 						},
