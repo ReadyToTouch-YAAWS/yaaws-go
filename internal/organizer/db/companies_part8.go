@@ -1285,7 +1285,7 @@ func companiesPart8() []domain.CompanyProfile {
 							ShortDescription:     "",
 							SwitchingOpportunity: "",
 							URL:                  "https://www.linkedin.com/jobs/view/4125175696/",
-							Date:                 mustDate("2025-02-21"), // mustDate("2025-02-20"), // mustDate("2025-02-15"), // mustDate("2025-01-16"),
+							Date:                 mustDate("2025-02-26"), // mustDate("2025-02-21"), // mustDate("2025-02-20"), // mustDate("2025-02-15"), // mustDate("2025-01-16"),
 							WithSalary:           true,                   // $60.00 - $77.00/ hr
 							Remote:               false,
 						},
@@ -3506,6 +3506,15 @@ func companiesPart8() []domain.CompanyProfile {
 							WithSalary:           false,
 							Remote:               false,
 						},
+						{
+							Title:                "Senior Software Engineer (Python / Go)",
+							ShortDescription:     "B2B",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4167157690/",
+							Date:                 mustDate("2025-02-25"),
+							WithSalary:           false,
+							Remote:               true,
+						},
 					},
 				},
 				domain.Rust:    {},
@@ -3574,7 +3583,7 @@ func companiesPart8() []domain.CompanyProfile {
 							ShortDescription:     "",
 							SwitchingOpportunity: "",
 							URL:                  "https://www.linkedin.com/jobs/view/4141112561/",
-							Date:                 mustDate("2025-02-03"),
+							Date:                 mustDate("2025-02-25"), // mustDate("2025-02-03"),
 							WithSalary:           false,
 							Remote:               false,
 						},
@@ -6229,6 +6238,251 @@ func companiesPart8() []domain.CompanyProfile {
 				domain.Haskell: {},
 			},
 			ShortDescription: "Canadian retailer and distributor of food and pharmaceutical products",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Qonto",
+			Website: "https://qonto.com/",
+			Careers: "https://qonto.com/en/careers",
+			About:   "https://qonto.com/en/about",
+			Blog:    "https://medium.com/qonto-way",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                13205888,
+				IDs:               nil,
+				Alias:             "qonto",
+				Name:              "Qonto",
+				Followers:         "135K",
+				Employees:         "1K-5K",
+				AssociatedMembers: "1,936",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "qonto",
+				Verified: false,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias:     "qonto",
+				Employees: "660",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Senior Go Backend Engineer",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4144346084/",
+							Date:                 mustDate("2025-02-26"),
+							WithSalary:           false,
+							Remote:               true,
+						},
+					},
+				},
+				domain.Rust:    {},
+				domain.Zig:     {},
+				domain.Scala:   {},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "French FinTech platform for businesses and freelancers",
+			Industries: []domain.Industry{
+				domain.IndustryFinTech,
+			},
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "iCapital",
+			Website: "https://icapital.com/",
+			Careers: "https://icapital.com/careers/",
+			About:   "https://icapital.com/about-us/",
+			Blog:    "",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                3080201,
+				IDs:               nil,
+				Alias:             "icapital-network-inc",
+				Name:              "iCapital",
+				Followers:         "67K",
+				Employees:         "1K-5K",
+				AssociatedMembers: "1,671",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias:     "icapital",
+				Employees: "690",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go:   {},
+				domain.Rust: {},
+				domain.Zig:  {},
+				domain.Scala: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Back Engineer, Scala",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4168470393/",
+							Date:                 mustDate("2025-02-26"),
+							WithSalary:           true, // $120.000 - $160.000 per year
+							Remote:               false,
+						},
+					},
+				},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "American fintech company that provides platform solutions related to alternative investments in the private markets",
+			Industries: []domain.Industry{
+				domain.IndustryFinTech,
+			},
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Expedia Group",
+			Website: "https://expediagroup.com/",
+			Careers: "https://careers.expediagroup.com/",
+			About:   "https://www.expediagroup.com/who-we-are/our-story/default.aspx",
+			Blog:    "https://medium.com/expedia-group-tech",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                2751,
+				IDs:               []int{2751, 34274, 86849, 150884, 404429, 1965675},
+				Alias:             "expedia",
+				Name:              "Expedia Group",
+				Followers:         "807K",
+				Employees:         "10K+",
+				AssociatedMembers: "22,684",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "",
+				Verified: false,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias: "",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go:   {},
+				domain.Rust: {},
+				domain.Zig:  {},
+				domain.Scala: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Data Engineer III - Scala/Spark",
+							ShortDescription:     "Media Solutions",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4141235282/",
+							Date:                 mustDate("2025-02-25"),
+							WithSalary:           true, // $128.000 - $179.500 per year
+							Remote:               false,
+						},
+					},
+				},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "American travel technology company that owns and operates travel fare aggregators and travel metasearch engines",
+		},
+
+		{
+			ID:      0,  // system
+			Type:    "", // system
+			Name:    "Esri",
+			Website: "https://www.esri.com/",
+			Careers: "https://www.esri.com/en-us/about/careers/overview",
+			About:   "https://www.esri.com/en-us/about/about-esri/overview",
+			Blog:    "",
+			LinkedInProfile: domain.LinkedInProfile{
+				ID:                5311,
+				IDs:               []int{5311, 2905030},
+				Alias:             "esri",
+				Name:              "Esri",
+				Followers:         "430K",
+				Employees:         "5K-10K",
+				AssociatedMembers: "6,805",
+				Verified:          true,
+			},
+			GitHubProfile: domain.GitHubProfile{
+				Login:    "esri",
+				Verified: true,
+			},
+			BlindProfile: domain.BlindProfile{
+				Alias: "",
+			},
+			LevelsFyiProfile: domain.LevelsFyiProfile{
+				Alias:     "esri",
+				Employees: "5,750",
+			},
+			GlassdoorProfile: domain.GlassdoorProfile{
+				OverviewURL: "",
+			},
+			IndeedProfile: domain.IndeedProfile{
+				Alias: "",
+			},
+			Languages: domain.Languages{
+				domain.Go:   {},
+				domain.Rust: {},
+				domain.Zig:  {},
+				domain.Scala: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Java/Scala Software Development Engineer II",
+							ShortDescription:     "Raster and Imagery",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4075632689/",
+							Date:                 mustDate("2025-02-25"),
+							WithSalary:           true, // $97.344 - $162.240 per year
+							Remote:               false,
+						},
+					},
+				},
+				domain.Elixir:  {},
+				domain.Clojure: {},
+				domain.Haskell: {},
+			},
+			ShortDescription: "American geographic information system (GIS) software",
 		},
 
 		// Template

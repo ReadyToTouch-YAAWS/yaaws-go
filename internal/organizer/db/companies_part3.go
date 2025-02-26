@@ -162,6 +162,15 @@ func companiesPart3() []domain.CompanyProfile {
 							WithSalary:           true, // $144,200 - $164,600 a year
 							Remote:               false,
 						},
+						{
+							Title:                "Lead Rust Software Engineer",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4144041186/",
+							Date:                 mustDate("2025-02-26"),
+							WithSalary:           true, // $175,800 - $200,700
+							Remote:               false,
+						},
 					},
 				},
 				domain.Zig: {},
@@ -3406,7 +3415,20 @@ func companiesPart3() []domain.CompanyProfile {
 				Alias: "",
 			},
 			Languages: domain.Languages{
-				domain.Go:    {},
+				domain.Go: {
+					GitHubRepositoriesCount: 0,
+					Vacancies: []domain.Vacancy{
+						{
+							Title:                "Software Engineer (AWS, C#, GO)",
+							ShortDescription:     "",
+							SwitchingOpportunity: "",
+							URL:                  "https://www.linkedin.com/jobs/view/4162701643/",
+							Date:                 mustDate("2025-02-25"),
+							WithSalary:           false,
+							Remote:               false,
+						},
+					},
+				},
 				domain.Rust:  {},
 				domain.Zig:   {},
 				domain.Scala: {},
